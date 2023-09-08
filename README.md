@@ -11,9 +11,12 @@ Python 3.11.4
 
 **2. place SENDGRID_API_KEY, FROM_EMAIL, TO_EMAIL in .env**
 
-**3. create virtual env**
+**3. create virtual env and activte it**
 ```sh
 python -m venv venv
+```
+```sh
+source venv/bin/activte
 ```
 
 **4. install requirements**
